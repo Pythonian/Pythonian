@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seyi Pythonian | Full-stack web developer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZXT1DPNFRH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-ZXT1DPNFRH');
+    </script>
+</head>
+
+<body class="d-flex flex-column min-vh-100" data-bs-spy="scroll" data-bs-target="#nav" tabindex="0"
+    data-bs-smooth-scroll="true">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark py-3 navbar-dark shadow fixed-top" id="nav">
+        <div class="container">
+            <a href="/" class="navbar-brand text-warning"><i class="fa-solid fa-circle text-warning fs-6"></i>
+                Pythonian</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item pe-lg-3">
+                        <a href="#intro" class="nav-link"><span class="text-warning">#</span>intro</a>
+                    </li>
+                    <li class="nav-item pe-lg-3">
+                        <a href="#readme" class="nav-link"><span class="text-warning">#</span>readme</a>
+                    </li>
+                    <li class="nav-item pe-lg-3">
+                        <a href="#projects" class="nav-link"><span class="text-warning">#</span>projects</a>
+                    </li>
+                    <li class="nav-item pe-lg-3">
+                        <a href="#workflow" class="nav-link"><span class="text-warning">#</span>workflow</a>
+                    </li>
+                    <li class="nav-item pe-lg-3">
+                        <a href="#stack" class="nav-link"><span class="text-warning">#</span>stack</a>
+                    </li>
+                    <li class="nav-item pe-lg-3">
+                        <a href="#shelf" class="nav-link"><span class="text-warning">#</span>shelf</a>
+                    </li>
+                    <li class="nav-item pe-lg-3">
+                        <a href="#contact" class="nav-link"><span class="text-warning">#</span>contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" target="_blank" class="btn btn-outline-warning me-2">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Intro -->
+    <section class="bg-dark text-white py-lg-5" id="intro">
+        <div class="container my-5">
+            <div class="d-flex justify-content-between">
+                <div data-aos="fade-right">
+                    <h1 class="mb-0">Hello, I am <span class="text-warning">Seyi Pythonian <i
+                                class="fa-regular fa-face-smile-beam d-none d-sm-inline-flex"></i></span></h1>
+                    <small class="text-warning">Web Developer.</small>
+                    <p class="lead mt-4">Not related in anyway to the <span class="text-warning">Pythonidae</span>
+                        family, i'm just an introvert who likes to make things happen on the web. Want to know how I may
+                        help your project? Check out my featured <a href="#projects" class="text-warning">projects</a>
+                        and <a href="#stack" class="text-warning">tech stack</a>.</p>
+                    <p class="lead mb-4"><span class="text-warning">Fun fact:</span> I sleep when I'm tired!</p>
+                    <a href="https://twitter.com/Ajibel" target="_blank" data-bs-toggle="tooltip"
+                        data-bs-title="Twitter" class="fs-4 text-warning pe-3"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://github.com/Pythonian" target="_blank" data-bs-toggle="tooltip"
+                        data-bs-title="Github" class="fs-4 text-warning pe-3"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://linkedin.com/in/pythonian" target="_blank" data-bs-toggle="tooltip"
+                        data-bs-title="LinkedIn" class="fs-4 text-warning pe-3"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <img class="img-fluid w-50 d-none d-lg-block" data-aos="fade-left" src="svg/hero.svg" alt="Hero svg">
+            </div>
+
+            <!-- <div class="border-top my-5 d-none d-sm-block"></div>
+            
+            <div class="row mb-4 g-3 mt-5 mt-sm-0">
+                <div class="col-lg-4 col-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="50">
+                    <div class="d-flex gap-1 mb-2">
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                    </div>
+                    <blockquote class="blockquote mb-2">Working with Seyi has been a pleasure. I alerted him of an
+                        issue before going to sleep and it was fixed the next morning. A 5 star freelancer.</blockquote>
+                    <span class="text-warning">- Chukwu Mercy Uzo</span>
+                </div>
+                <div class="col-lg-4 col-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+                    <div class="d-flex gap-1 mb-2">
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-regular fa-star text-warning"></i>
+                    </div>
+                    <blockquote class="blockquote mb-2">With Pythonian's help, I was able to improve the
+                        functionality of my website dramatically while cutting our costs. Thanks Seyi!</blockquote>
+                    <span class="text-warning">- Ugochi Maduike</span>
+                </div>
+                <div class="col-lg-4 col-12" data-aos="fade-up" data-aos-delay="150">
+                    <div class="d-flex gap-1 mb-2">
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star text-warning"></i>
+                        <i class="fa-solid fa-star-half-stroke text-warning"></i>
+                    </div>
+                    <blockquote class="blockquote mb-2">As a product designer, Seyi has been an amazing person to work with though sometimes, I'm tempted to give him a knock.</blockquote>
+                    <span class="text-warning">- Emmanuella (Product Designer)</span>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Readme -->
+    <section class="py-5 bg-white" id="readme">
+        <div class="container my-5">
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-4 mb-md-4">
+                    <img src="img/me.jpg" class="img-fluid" alt="Seyi Pythonian">
+                </div>
+                <div class="col-lg-8 ps-lg-5">
+                    <h3 class="fw-bold mb-3"><i class="fa-brands fa-readme"></i> Readme</h3>
+                    <p class="text-muted">Paragraph of text beneath the heading to explain the heading. We'll add onto
+                        it with another sentence and probably just keep going until we run out of words.</p>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptatibus
+                        nemo quasi temporibus, porro molestiae explicabo fuga ratione nihil maxime sed repellendus dolor
+                        debitis in.</p>
+                    <p class="text-muted">I create web applications primarily with Django. Quia voluptatibus nemo quasi
+                    </p>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><i class="fa-solid fa-circle-check text-primary fs-5 me-2"></i> Open to working
+                            remote, on-site or hybrid</li>
+                        <li class="mb-3"><i class="fa-solid fa-comment text-primary fs-5 me-2"></i> Ask me questions on
+                            Django</li>
+                        <li class="mb-3"><i class="fa-solid fa-seedling text-warning fs-5 me-2"></i> Learning Data
+                            structures and algorithm</li>
+                        <p class="text-muted">Paragraph of text beneath the heading to explain the heading. We'll add
+                            onto it with another sentence and probably just keep going until we run out of words. Lorem
+                            ipsum dolor sit amet consectetur adipisicing elit. Quia voluptatibus nemo quasi temporibus,
+                            porro molestiae
+                            explicabo fuga ratione nihil maxime sed repellendus dolor debitis in.</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project -->
+    <section class="py-5 bg-primary" id="projects">
+        <div class="container py-5">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-lg-12">
+                    <div data-aos="fade-down" class="mb-5 text-white">
+                        <h2 class="mb-3"><i class="fa-solid fa-folder-tree"></i> Featured Projects</h2>
+                        <p class="lead">Some of the noteworthy projects I have built or contributed to</p>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                            <div class="card bg-dark text-light h-100">
+                                <div class="card-body px-4 py-4">
+                                    <div class="d-flex justify-content-between mb-4">
+                                        <div><i class="fa-solid fa-folder fa-2x"></i></div>
+                                        <div>
+                                            <a class="text-decoration-none text-warning" href="">
+                                                <i class="fa-brands fa-github fa-2x"></i>
+                                            </a>
+                                            <a href="" class="text-decoration-none text-warning">
+                                                <i class="fa-solid fa-arrow-up-right-from-square fa-2x ms-3"></i>
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                    <h3 class="card-title mb-3 text-warning">BlueKart</h3>
+                                    <p class="card-text">A fully-featured online shopping web application with a
+                                        comprehensive suite of features for e-commerce businesses of all
+                                        sizes.</p>
+                                    <ul class="list-inline text-muted font-monospace small">
+                                        <li class="list-inline-item">Bootstrap</li>
+                                        <li class="list-inline-item">Django</li>
+                                        <li class="list-inline-item">Postgresql</li>
+                                        <li class="list-inline-item">Docker</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                            <div class="card bg-dark text-light h-100">
+                                <div class="card-body px-4 py-4">
+                                    <div class="d-flex justify-content-between mb-4">
+                                        <div><i class="fa-solid fa-folder fa-2x"></i></div>
+                                        <div>
+                                            <a class="text-decoration-none text-warning" href="">
+                                                <i class="fa-brands fa-github-alt fa-2x"></i>
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                    <h3 class="card-title mb-3 text-warning">Euroclass</h3>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit
+                                        illo,
+                                        quod nam
+                                        molestias est vitae, animi, cupiditate tempore quo vel at ipsam.</p>
+                                    <ul class="list-inline text-muted font-monospace small">
+                                        <li class="list-inline-item">Python</li>
+                                        <li class="list-inline-item">Django</li>
+                                        <li class="list-inline-item">MySQL</li>
+                                        <li class="list-inline-item">PythonAnywhere</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                            <div class="card bg-dark text-light h-100">
+                                <div class="card-body px-4 py-4">
+                                    <div class="d-flex justify-content-between mb-4">
+                                        <div><i class="fa-solid fa-folder fa-2x"></i></div>
+                                        <div>
+                                            <a href="" class="text-decoration-none text-warning">
+                                                <i class="fa-brands fa-github fa-2x ms-3"></i>
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                    <h3 class="card-title mb-3 text-warning">BlueJobs</h3>
+                                    <p class="card-text">Blue collar job board adipisicing elit. Sit illo,
+                                        quod nam
+                                        molestias est vitae, animi, cupiditate tempore quo vel at ipsam.</p>
+                                    <ul class="list-inline text-muted font-monospace small">
+                                        <li class="list-inline-item">Python</li>
+                                        <li class="list-inline-item">Flask</li>
+                                        <li class="list-inline-item">Postgresql</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                            <div class="card bg-dark text-light h-100">
+                                <div class="card-body px-4 py-4">
+                                    <div class="d-flex justify-content-between mb-4">
+                                        <div><i class="fa-solid fa-folder fa-2x"></i></div>
+                                        <div>
+                                            <a href="" class="text-decoration-none text-warning">
+                                                <i class="fa-brands fa-github fa-2x ms-3"></i>
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                    <h3 class="card-title mb-3 text-warning">VidHut</h3>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit
+                                        illo,
+                                        quod nam
+                                        molestias est vitae, animi, cupiditate tempore quo vel at ipsam.</p>
+                                    <ul class="list-inline text-muted font-monospace small">
+                                        <li class="list-inline-item">Python</li>
+                                        <li class="list-inline-item">Flask</li>
+                                        <li class="list-inline-item">Postgresql</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+                            <div class="card bg-dark text-light h-100">
+                                <div class="card-body px-4 py-4">
+                                    <div class="d-flex justify-content-between mb-4">
+                                        <div><i class="fa-solid fa-folder fa-2x"></i></div>
+                                        <div>
+                                            <a href="" class="text-decoration-none text-warning">
+                                                <i class="fa-solid fa-arrow-up-right-from-square fa-2x ms-3"></i>
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                    <h3 class="card-title mb-3 text-warning">RideOnHire</h3>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit
+                                        illo,
+                                        quod nam
+                                        molestias est vitae, animi, cupiditate tempore quo vel at ipsam.</p>
+                                    <ul class="list-inline text-muted font-monospace small">
+                                        <li class="list-inline-item">Python</li>
+                                        <li class="list-inline-item">Flask</li>
+                                        <li class="list-inline-item">Postgresql</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
+                            <div class="card bg-dark text-light h-100">
+                                <div class="card-body px-4 py-4">
+                                    <div class="d-flex justify-content-between mb-4">
+                                        <div><i class="fa-solid fa-folder fa-2x"></i></div>
+                                        <div>
+                                            <a href="" class="text-decoration-none text-warning">
+                                                <i class="fa-solid fa-arrow-up-right-from-square fa-2x ms-3"></i>
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                    <h3 class="card-title mb-3 text-warning">Footystory</h3>
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit
+                                        illo,
+                                        quod nam
+                                        molestias est vitae, animi, cupiditate tempore quo vel at ipsam.</p>
+                                    <ul class="list-inline text-muted font-monospace small">
+                                        <li class="list-inline-item">Python</li>
+                                        <li class="list-inline-item">Flask</li>
+                                        <li class="list-inline-item">Postgresql</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workflow -->
+    <section class="py-5 bg-light" id="workflow">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div data-aos="fade-down" class="mb-5">
+                        <h2 class="mb-3"><i class="fa-regular fa-hourglass-half"></i> Workflow</h2>
+                        <p class="lead">My web development workflow when building web applications</p>
+                    </div>
+
+                    <div class="d-grid gap-3">
+                        <div class="d-flex" data-aos="fade-up">
+                            <div class="flex-shrink-0">
+                                <i class="fa-solid fa-1 fa-2x text-primary"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-4">
+                                <h5 class="text-primary">Gathering requirements</h5>
+                                <p>A statement of requirements or a detailed list of expectations for the project.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex" data-aos="fade-up">
+                            <div class="flex-shrink-0">
+                                <i class="fa-solid fa-2 fa-2x text-primary"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-4">
+                                <h5 class="text-primary">Structure Web Design & Architecture</h5>
+                                <p>Space is a place where conversations happen, decisions are made, and information.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex" data-aos="fade-up">
+                            <div class="flex-shrink-0">
+                                <i class="fa-solid fa-3 fa-2x text-primary"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-4">
+                                <h5 class="text-primary">Build the Web application</h5>
+                                <p>Space is a place where conversations happen, decisions are made, and information.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex" data-aos="fade-up">
+                            <div class="flex-shrink-0">
+                                <i class="fa-solid fa-4 fa-2x text-primary"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-4">
+                                <h5 class="text-primary">Testing & Deployment</h5>
+                                <p>Space is a place where conversations happen, decisions are made, and information.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex" data-aos="fade-up">
+                            <div class="flex-shrink-0">
+                                <i class="fa-solid fa-5 fa-2x text-primary"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-4">
+                                <h5 class="text-primary">Support & Maintenance</h5>
+                                <p>Space is a place where conversations happen, decisions are made, and information.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-none d-sm-block" data-aos="fade-in-left">
+                    <img class="img-fluid" src="svg/workflow.svg" alt="Image Description">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stack -->
+    <section class="py-5 bg-dark text-white" id="stack">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div data-aos="fade-down" class="mb-5">
+                        <h2 class="text-warning mb-3"><i class="fa-solid fa-laptop-code"></i> Stack</h2>
+                        <p class="lead">These are, but not limited to, the tech I use when building web applications.
+                        </p>
+                    </div>
+
+                    <div class="row g-2 text-uppercase text-dark text-center fw-bold">
+                        <div class="col-md-4 col-sm-6" data-aos="zoom-in">
+                            <div class="bg-white p-3">
+                                Bootstrap
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6" data-aos="zoom-in">
+                            <div class="bg-white p-3">
+                                Tailwindcss
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6" data-aos="zoom-in">
+                            <div class="bg-white p-3">
+                                Javascript
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6" data-aos="zoom-in">
+                            <div class="bg-white p-3">
+                                Python
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6" data-aos="zoom-in">
+                            <div class="bg-white p-3">
+                                Django
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6" data-aos="zoom-in">
+                            <div class="bg-white p-3">
+                                Flask
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6" data-aos="zoom-in">
+                            <div class="bg-white p-3">
+                                HTMX
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6" data-aos="zoom-in">
+                            <div class="bg-white p-3">
+                                REST (DRF)
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6" data-aos="zoom-in">
+                            <div class="bg-white p-3">
+                                VSCode
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6" data-aos="zoom-in">
+                            <div class="bg-white p-3">
+                                Docker
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6" data-aos="zoom-in">
+                            <div class="bg-white p-3">
+                                AWS
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6" data-aos="zoom-in">
+                            <div class="bg-white p-3">
+                                Redis
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6" data-aos="zoom-in">
+                            <div class="bg-white p-3">
+                                Kurbenetes
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6" data-aos="zoom-in">
+                            <div class="bg-white p-3">
+                                Nginx
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6" data-aos="zoom-in">
+                            <div class="bg-white p-3">
+                                Digitalocean
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6" data-aos="zoom-in">
+                            <div class="bg-white p-3">
+                                Celery
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6" data-aos="zoom-in">
+                            <div class="bg-white p-3">
+                                Gunicorn
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6" data-aos="zoom-in">
+                            <div class="bg-white p-3">
+                                Github
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block" data-aos="fade-down">
+                    <img src="svg/stack.svg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shelf -->
+    <section class="py-5 bg-light" id="shelf">
+        <div class="container py-5">
+            <div data-aos="fade-down" class="mb-5">
+                <h2 class="mb-3"><i class="fa-solid fa-blog"></i> Shelf</h2>
+                <p class="lead">I like to self-document workflows I frequently use so I could refer back to it later.
+                </p>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="h-100 d-flex align-items-start">
+                        <div class="text-muted flex-shrink-0 d-flex flex-column text-center">
+                            <span class="pb-2 h4 mb-2 border-bottom">Sep</span>
+                            <span class="h4">30 '21</span>
+                        </div>
+                        <div class="flex-grow ps-3">
+                            <h5 class="mb-3"><a href="#">Using Makefile in a Django Application</a></h5>
+                            <p>Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled
+                                waistcoat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-100 d-flex align-items-start">
+                        <div class="text-muted flex-shrink-0 d-flex flex-column text-center">
+                            <span class="pb-2 h4 mb-2 border-bottom">Aug</span>
+                            <span class="h4">14 '21</span>
+                        </div>
+                        <div class="flex-grow ps-3">
+                            <h5 class="mb-3"><a href="#">Writing Unit Tests in Django</a></h5>
+                            <p">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled
+                                waistcoat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="h-100 d-flex align-items-start">
+                        <div class="text-muted flex-shrink-0 d-flex flex-column text-center">
+                            <span class="pb-2 h4 mb-2 border-bottom">Jul</span>
+                            <span class="h4">12 '21</span>
+                        </div>
+                        <div class="flex-grow ps-3">
+                            <h5 class="mb-3"><a href="#">Free Bootstrap 5 Templates</a></h5>
+                            <p>Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled
+                                waistcoat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="h-100 d-flex align-items-start">
+                        <div class="text-muted flex-shrink-0 d-flex flex-column text-center">
+                            <span class="pb-2 h4 mb-2 border-bottom">June</span>
+                            <span class="h4">10 '21</span>
+                        </div>
+                        <div class="flex-grow ps-3">
+                            <h5 class="mb-3"><a href="#">The Django Mega Tutorial</a></h5>
+                            <p>Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled
+                                waistcoat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="h-100 d-flex align-items-start">
+                        <div class="text-muted flex-shrink-0 d-flex flex-column text-center">
+                            <span class="pb-2 h4 mb-2 border-bottom">Apr</span>
+                            <span class="h4">01 '21</span>
+                        </div>
+                        <div class="flex-grow ps-3">
+                            <h5 class="mb-3"><a href="#">Build a Crowdfunding Website in Django</a></h5>
+                            <p>Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled
+                                waistcoat.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="h-100 d-flex align-items-start">
+                        <div class="text-muted flex-shrink-0 d-flex flex-column text-center">
+                            <span class="pb-2 h4 mb-2 border-bottom">Feb</span>
+                            <span class="h4">06 '21</span>
+                        </div>
+                        <div class="flex-grow ps-3">
+                            <h5 class="mb-3"><a href="#">Django Authentication System</a></h5>
+                            <p>Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled
+                                waistcoat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="py-5 bg-primary text-white" id="contact">
+        <div class="container py-5">
+            <div class="row text-center">
+                <div class="col-lg-8 mx-auto">
+                    <i class="fa-solid fa-face-smile-wink fa-3x mb-4" data-aos="fade-down"></i>
+                    <h3 class="fw-bold mb-3" data-aos="fade-down">Got a job contract or project or want us to
+                        collaborate on something?</h3>
+                    <div data-aos="fade-up">
+                        <p class="lead mb-5">
+                            I am open to further discussions and new opportunities. Please send me an email and let's
+                            continue from there!
+                        </p>
+                        <a href="mailto:seyipythonian@gmail.com?subject=Mail%20from%20Portfolio" target="_blank"
+                            class="btn btn-warning rounded-pill"><i class="fa-solid fa-paper-plane"></i> Send a mail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark text-white position-relative mt-auto">
+        <div class="container">
+            <p class="mb-1">&copy;2023 &bull; Built by Pythonian</p>
+            <p class="mb-0">
+                <a href="http://hbspoetry.blogspot.com.ng/" class="text-warning" target="_blank">Read my poems</a>
+            </p>
+            <a href="#intro" class="position-absolute bottom-0 end-0 p-5">
+                <i class="fa-solid fa-circle-arrow-up fa-2x text-warning"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/app.js"></script>
+
+</body>
+
+</html>
