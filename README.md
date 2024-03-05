@@ -10,7 +10,7 @@ Welcome to my minimalist Github bio. I do a lot of web development with Python a
 - 👯 I'm open to new work and job opportunities
 - 💬 Ask me about web development with Python and Django
 - 📫 Send me a mail at seyipythonian@gmail.com
-- 🌍 Check out my [Portfolio](https://bit.ly/Pythonian)
+- 🌍 Check out my [Portfolio](https://bit.ly/SeyiPythonian)
 - 😄 Pronouns: Him/he 
 - ⚡ Fun fact: I sleep when I'm tired
 
